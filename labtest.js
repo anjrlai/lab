@@ -20,6 +20,12 @@ document.querySelector(".ytp-ad-skip-button-modern")?.click();
 console.log("廣告影片縮短了!!!");
 }
 const movieName = document.querySelector('yt-formatted-string.ytd-watch-metadata').innerText;
+//const overlay = document.querySelector('.ytp-autonav-endscreen-countdown-overlay');
+//if((overlay != null )&&(overlay.style.display != 'none'))
+//{
+//  console.log("快速播放下一部!!!");
+//  document.querySelector('.ytp-autonav-endscreen-upnext-play-button').click();
+//}
 if(movieName!=previousMovieName){
 console.log("現在播放:"+movieName);
 previousMovieName=movieName;
